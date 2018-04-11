@@ -18,7 +18,6 @@ import { withStyles } from 'material-ui/styles';
 import withRoot from '../withRoot';
 import Tabs, { Tab } from 'material-ui/Tabs';
 import Zoom from 'material-ui/transitions/Zoom';
-import green from 'material-ui/colors/green';
 import Table, { TableBody, TableCell, TableHead, TableRow } from 'material-ui/Table';
 import {
   LineChart,
@@ -30,7 +29,8 @@ import {
 } from 'react-chartkick'
 import Chartkick from "chartkick";
 
-Chartkick.configure({ mapsApiKey: process.env.GOOGLE_MAP_KEY })
+console.log(process.env.REACT_APP_GOOGLE_MAP_KEY)
+Chartkick.configure({ mapsApiKey: process.env.REACT_APP_GOOGLE_MAP_KEY })
 
 const CustomTableCell = withStyles(theme => ({
   head: {
