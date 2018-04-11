@@ -28,7 +28,9 @@ import {
   BarChart,
   AreaChart,
 } from 'react-chartkick'
+import Chartkick from "chartkick";
 
+Chartkick.configure({ mapsApiKey: process.env.GOOGLE_MAP_KEY })
 
 const CustomTableCell = withStyles(theme => ({
   head: {

@@ -3,15 +3,16 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "chart.js": "^2.7.2",
-    "material-ui": "^1.0.0-beta.41",
     "@material-ui/icons": "latest",
-    "react-swipeable-views": "latest",
+    "chart.js": "^2.7.2",
+    "dotenv": "^5.0.1",
+    "material-ui": "^1.0.0-beta.41",
     "prop-types": "latest",
     "react": "latest",
     "react-chartkick": "^0.2.0",
     "react-dom": "latest",
-    "react-scripts": "latest"
+    "react-scripts": "latest",
+    "react-swipeable-views": "latest"
   },
   "scripts": {
     "start": "react-scripts start --host 0.0.0.0",
